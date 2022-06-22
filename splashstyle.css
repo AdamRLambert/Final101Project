@@ -1,0 +1,21 @@
+.photo img {
+    height: auto   ;
+    width: 55%;
+    }
+
+.container {
+    font-family: 'Gruppo', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.info {
+    font-size: 20px;
+}
+
+
+.nav > a {
+    display: flex;
+    color: whitesmoke;
+    margin-top: 10px;
+}
