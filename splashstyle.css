@@ -1,21 +1,61 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.photo {
+    text-align: center;
+}
+
 .photo img {
     height: auto   ;
     width: 55%;
     }
 
 .container {
-    font-family: 'Gruppo', cursive;
-    background-color: black;
-    color: whitesmoke;
-}
+   display: grid;
+   grid-template-areas:
+   "photo"
+   "info";
+   }
+
+.photo {grid-area: photo;}
+.info {grid-area: info;}
 
 .info {
     font-size: 20px;
+    text-align: center;
 }
 
 
-.nav > a {
+.nav {
     display: flex;
-    color: whitesmoke;
-    margin-top: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Gruppo', cursive;
+    text-align: center;
+   
+    }
+  
+  a {color: whitesmoke;}
+
+
+  @media (min-width: 768px) {
+
+    .container {
+        display: grid;
+        grid-template-areas: 
+    "photo photo"
+    "info info"
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container {
+        display: grid;
+        grid-template-areas: 
+    "photo photo info"
+    
+    }
 }

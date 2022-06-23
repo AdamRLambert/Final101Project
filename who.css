@@ -26,6 +26,23 @@ img {
     justify-content: space-evenly;
     font-family: 'Gruppo', cursive;
     text-align: center;
+    
     }
 
 a {color: whitesmoke;}
+
+@media (min-width: 768px) {
+
+    .container1 {
+        display: grid;
+        grid-template-areas: 
+    "slide 1 slide 2"
+    "slide 3 slide 5"
+    }
+
+    .slide1 {grid-area: slide1;}
+    .slide2 {grid-area: slide2;}
+    .slide3 {grid-area: slide3;}
+    .slide5 {grid-area: slide4;}
+
+}

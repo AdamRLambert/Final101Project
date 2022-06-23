@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Gruppo", cursive;
+  }
+
+  .header {
+      text-align: center;
+      font-size: 35px;
+  }
+
+  .container {
+      border: 1px solid whitesmoke;
+    }
+
+  h2 {
+      text-decoration: underline;
+  }
+
+  .school:hover {
+    transform: scale(1.02);
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  
+  .scalise:hover {
+    transform: scale(1.02);
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .ies:hover {
+    transform: scale(1.02);
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .trane:hover {
+    transform: scale(1.02);
+    text-align: center;
+    font-size: 30px;
+    
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Gruppo', cursive;
+    text-align: center;
+    }
+  
+  a {color: whitesmoke;}
