@@ -31,18 +31,18 @@ img {
 
 a {color: whitesmoke;}
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 
-    .container1 {
-        display: grid;
-        grid-template-areas: 
-    "slide 1 slide 2"
-    "slide 3 slide 5"
-    }
+    #stage {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       }
 
-    .slide1 {grid-area: slide1;}
-    .slide2 {grid-area: slide2;}
-    .slide3 {grid-area: slide3;}
-    .slide5 {grid-area: slide4;}
+    img { 
+        width: 100%;
+        height: auto;
+        }
 
 }

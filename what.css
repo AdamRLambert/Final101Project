@@ -4,7 +4,7 @@ body {
 }
 
 .screen img {
-    border: 5px solid gray;
+    border: 2px solid gray;
     }
 
 .responsive {
@@ -33,10 +33,55 @@ h3 {
  
   }
 
-a {color: whitesmoke;}
+a {color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+
+  
+  .screen {
+    max-width: 55%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+      
+      
+  }
+
+  .example {
+    max-width: 55%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+a {
+  font-size: 20px;}
+}
 
 
+@media (min-width: 992px) {
 
+  
+  .screen {
+    max-width: 55%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+      
+      
+  }
+
+  .example {
+    max-width: 55%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+a {
+  font-size: 20px;}
+
+}
 
 
 
