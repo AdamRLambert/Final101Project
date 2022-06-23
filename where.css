@@ -30,11 +30,26 @@ a {
   color: whitesmoke;
 }
 
+@media (min-width: 768px) {
+  .lemmon {
+    max-width: 75%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+
+  a {
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 992px) {
   .lemmon {
     max-width: 55%;
     height: auto;
     text-align: center;
     margin: auto;
+  }
+  a {font-size: 20px;
   }
 }

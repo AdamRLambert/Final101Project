@@ -4,13 +4,13 @@ body {
 }
 
 .screen img {
-    border: 2px solid gray;
-    }
+  border: 2px solid gray;
+}
 
 .responsive {
   width: 100%;
   height: auto;
-}    
+}
 
 h1 {
   text-align: center;
@@ -28,24 +28,20 @@ h3 {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  font-family: 'Gruppo', cursive;
+  font-family: "Gruppo", cursive;
   text-align: center;
- 
-  }
+}
 
-a {color: whitesmoke;
+a {
+  color: whitesmoke;
 }
 
 @media (min-width: 768px) {
-
-  
   .screen {
     max-width: 55%;
     height: auto;
     text-align: center;
     margin: auto;
-      
-      
   }
 
   .example {
@@ -53,23 +49,19 @@ a {color: whitesmoke;
     height: auto;
     text-align: center;
     margin: auto;
-}
+  }
 
-a {
-  font-size: 20px;}
+  a {
+    font-size: 20px;
+  }
 }
-
 
 @media (min-width: 992px) {
-
-  
   .screen {
     max-width: 55%;
     height: auto;
     text-align: center;
     margin: auto;
-      
-      
   }
 
   .example {
@@ -77,16 +69,8 @@ a {
     height: auto;
     text-align: center;
     margin: auto;
+  }
+  a {
+    font-size: 20px;
+  }
 }
-a {
-  font-size: 20px;}
-
-}
-
-
-
-
-
-
-
-
