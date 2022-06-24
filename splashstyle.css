@@ -22,6 +22,8 @@ body {
 .photo img {
   width: 85%;
   height: auto;
+  border-radius: 50%;
+  border: 1px solid whitesmoke;
 }
 
 .photo {
@@ -75,7 +77,7 @@ a {
   img {
     max-width: 50%;
     height: auto;
-    margin-right: 55%;
+    margin-right: 15%;
   }
 
   .info {
